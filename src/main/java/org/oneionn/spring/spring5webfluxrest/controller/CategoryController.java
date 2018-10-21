@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
  * @author Ondrej Musil
  */
 @RequestMapping("api/v1/categories")
-@RestController()
+@RestController
 public class CategoryController {
 
     private final CategoryRepository categoryRepository;
